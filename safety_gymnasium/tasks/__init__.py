@@ -27,3 +27,7 @@ from safety_gymnasium.tasks.push.push_level0 import PushLevel0
 from safety_gymnasium.tasks.push.push_level1 import PushLevel1
 from safety_gymnasium.tasks.push.push_level2 import PushLevel2
 from safety_gymnasium.tasks.run.run import RunLevel0
+
+from shield.environments.hazard_button import HazardButton as ButtonLevel4
+from shield.environments.hazard_circle import HazardCircle as CircleLevel4
+from shield.environments.hazard_goal import HazardGoal as GoalLevel4
